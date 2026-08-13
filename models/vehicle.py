@@ -9,6 +9,7 @@ class Vehicle:
     
     def calculate_rental(self, days):
         return self.rental_price * days
+    
 rental_day = int(input("How many days need vehicle for rent: "))
 
 car = Vehicle("123XXyz","BMW",1000)
