@@ -1,0 +1,73 @@
+# Vehicle Rental System
+
+A simple Python project for a vehicle rental system.
+
+This project uses OOP concepts to represent different types of vehicles like Cars and Bikes. Each vehicle has common details such as vehicle number, brand, and rental price.
+
+## Features
+
+* Create Cars and Bikes
+* Store vehicle details
+* Display vehicle details
+* Calculate rental cost based on number of days
+* Different rental rules for Cars and Bikes
+
+## OOP Concepts Used
+
+* **Inheritance** – Car and Bike inherit from Vehicle
+* **Encapsulation** – Vehicle data and methods are kept inside classes
+* **Method Overriding** – Car and Bike have their own calculate_rental() method
+* **Polymorphism** – Cars and Bikes can be handled using the same vehicle interface
+
+## Project Structure
+
+
+VEHICLE-RENTAL-SYSTEM/
+│
+├── models/
+│   ├── __init__.py
+│   ├── vehicle.py
+│   ├── car.py
+│   └── bike.py
+│
+├── main.py
+└── README.md
+
+
+## How to Run
+
+Make sure Python is installed.
+
+Run the following command from the project folder:
+
+
+python main.py
+
+
+Enter the number of rental days when asked.
+
+## Rental Rules
+
+**Car**
+
+* Normal price = rental price × number of days
+* 10% discount for rentals of 7 days or more
+
+**Bike**
+
+* Normal price = rental price × number of days
+* 5% discount for rentals of 5 days or more
+
+## Example
+
+
+Enter rental duration in days: 7
+
+Vehicle Number: CAR101
+Brand: BMW
+Rental Price/Day: 1000
+Number of Seats: 5
+Rental for 7 days: ₹6300.00
+
+
+This project was created as part of an OOP assessment for a Web Developer Internship.
