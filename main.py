@@ -11,7 +11,7 @@ def main():
     vehicles = [car1, car2, bike1, bike2]
     days = int(input("Enter rental duration days: "))
     
-    print("======= VEhicle Rental Details =======")
+    print("======= Vehicle Rental Details =======")
     
     for vehicle in vehicles:
         print("----------------------")
